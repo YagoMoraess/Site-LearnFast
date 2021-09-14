@@ -1,0 +1,182 @@
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalho-principal .container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.cabecalho-principal .container h1{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 75px;
+}
+
+.cabecalho-princpal-nav .cabecalho-nav {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px;
+    
+}
+
+.conteudoPrincipal .container {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.conteudoPrincipal .conteudo-h2 {
+    margin: 10px 0px 0px 85px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.conteudoPrincipal-cursos-link {
+    height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+    width: 23%;
+
+}
+
+.conteudoPrincipal-cursos-link a {
+    text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cursos-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 70px 0px 70px;
+}
+
+.conteudoPrincipal-cursos-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.conteudoPrincipal-cursos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(even) a:before {
+	background: url(/img/fundo1.svg) no-repeat;	
+}
+
+.conteudoPrincipal-cursos-link:nth-child(odd) a:before {
+	background: url(/img/fundo2.svg) no-repeat;
+}
+
+
+.video .container {
+    background-color: #5E9EDC;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.video .video-conteudo {
+    margin: 25px 0px 25px 85px;
+}
+
+.video-sobre {
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.h2-sobre {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.sobre-list {
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.videoSobre-button {
+    background-color: orange;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.videoSobre-button:hover {
+    font-size: 27px;
+    width: 62%;
+}
+
+.rodape-principal .container {
+    background-color: #324C64;
+    width: 100%;
+}
+
+.rodape-navcursos h3 {
+    font-size: 40px;
+    margin: 10px 0px 0px 85px;
+    padding-top: 20px;
+    color: white;
+}
+
+.h4-banco { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
+.h4-frameworks { color: #AD85BF; border-left: 4px solid #AD85BF;}
+.h4-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
+.h4-backend { color: #25D285; border-left: 4px solid #25D285; }
+
+.mapa-de-cursos {
+    color: white;
+    font-size: 19px;
+    margin: 10px 0px 20px 87px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    flex-wrap: wrap;
+}
+
+.rodape-navcursos-cursos {
+    margin: 1px 0px 4px 0px;
+}
+
+.navmap-list-title {
+    font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+}
+
+.rodape-patrocinadores .container {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.lista-patrocinadores {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
